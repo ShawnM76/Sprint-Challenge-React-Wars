@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import StarWarsGrid from "./components/StarWarsGrid.js";
-import "semantic-ui-css/semantic.min.css"
+import "semantic-ui/dist/semantic.min.css";
+import styled from "styled-components";
 import './App.css';
 import { Grid, Image } from 'semantic-ui-react';
 
