@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import StarWarsGrid from "./components/StarWarsGrid.js";
+import "semantic-ui-css/semantic.min.css"
 import './App.css';
+import { Grid, Image } from 'semantic-ui-react';
 
 const App = () => {
- 
+  
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
  

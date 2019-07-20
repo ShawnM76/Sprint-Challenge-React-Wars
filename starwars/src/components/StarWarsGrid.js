@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import StarWarsCard from "./StarWarsCard.js";
+import { Grid, Image } from 'semantic-ui-react';
 
 const StarWarsGrid = props => {
     const [ warsData, setWarsData ] = useState({});
